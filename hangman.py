@@ -15,6 +15,8 @@ def hangman(word):
     rletters = list(word)
     board = ['_'] * len(word)
     win = False
+    print('hello world')
+    print('首吊り獄門同好会')
     print('ハングマンへようこそ！')
     while wrong < len(stages) - 1:
         print('\n')
